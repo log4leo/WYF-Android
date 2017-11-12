@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">亿通宝</string>
+    <string name="server_url">http://h5app.shugenpay.com/</string>
+    <string name="app">2</string>
+</resources>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">信用通</string>
+    <string name="server_url">http://121.46.1.83:8070/tie/index.jsp</string>
+    <string name="app">2</string>
+</resources>
+

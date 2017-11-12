@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">苏乐付</string>
+    <string name="server_url">https://h5app.shugenpay.com/?_oemId=8170800282</string>
+    <string name="app">2</string>
+</resources>
+

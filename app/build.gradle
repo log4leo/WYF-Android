@@ -1,0 +1,65 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'WYF'
+            keyPassword 'com.gyf.wyfhaskjdfha77'
+            storeFile file('keystore.jks')
+            storePassword 'com.gyf.wyfhaskjdfha77'
+        }
+    }
+    compileSdkVersion 24
+    buildToolsVersion '24.0.2'
+    defaultConfig {
+        applicationId 'com.pay.android.shengshubao'
+        minSdkVersion 14
+        targetSdkVersion 22
+        versionCode 6
+        versionName "1.3"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+    }
+
+    productFlavors {
+        shengshubao {
+            applicationId 'com.pay.android.shengshubao'
+        }
+        gxjf {
+            applicationId 'com.pay.android.gxjf'
+        }
+        smqh {
+            applicationId 'com.pay.android.smqh'
+        }
+        ytb {
+            applicationId 'com.pay.android.ytb'
+        }
+        xyt {
+            applicationId 'com.pay.android.xyt'
+        }
+        shugenh5 {
+            applicationId 'com.pay.shugenh5'
+        }
+        slf {
+            applicationId 'com.pay.slf'
+        }
+        xdqb {
+            applicationId 'com.pay.xdqb'
+        }
+        cyb {
+            applicationId 'com.pay.cyb'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'io.github.wangeason:MultiPhotoPicker:0.2.0'
+    compile 'com.android.support:appcompat-v7:24.2.1'
+}
