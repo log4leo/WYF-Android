@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
+    flavorDimensions "default"
     signingConfigs {
         config {
             keyAlias 'WYF'
@@ -10,7 +11,7 @@ android {
         }
     }
     compileSdkVersion 24
-    buildToolsVersion '24.0.2'
+    buildToolsVersion '26.0.2'
     defaultConfig {
         applicationId 'com.pay.android.shengshubao'
         minSdkVersion 14
