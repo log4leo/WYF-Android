@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">兄弟钱包</string>
-    <string name="server_url">https://h5app.shugenpay.com/?_oemId=8170800283</string>
+    <string name="server_url">https://h5app.shugenpay.com/xdpay/</string>
     <string name="app">2</string>
 </resources>
 
